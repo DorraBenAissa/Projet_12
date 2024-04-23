@@ -25,7 +25,7 @@ function Footer() {
                         <Link to="/">
                             <img src={LogoFooter} class="footer-mh-panels-pres__logo" alt="logo-mathilde-hetru" />
                         </Link>
-                        <p class="footer-mh-panels-pres__text">Développeuse web <br/> -React_Angular- <br/> Graphiste</p>
+                        <p class="footer-mh-panels-pres__text">Développeuse web <br/> React <br/> Graphiste</p>
                         <a href="mailto:hello@mathildehetru.com" class="footer-mh-panels-pres__linkmail">
                             <p class="footer-mh-panels-pres__mail">dorra.benaissaghariani@gmail.com</p>
                         </a>

@@ -35,7 +35,11 @@ function Header() {
         <nav class="header-mh-nav" >
           <a href="#about" class="header-mh-nav__text">Qui suis-je ?</a>
           <a href="#projects" class="header-mh-nav__text">Portfolio</a>
-          <a href="mes-services.html" class="header-mh-nav__text">Mes services</a>
+
+          <Link to="/Services" class="header-mh-nav__text">
+            Mes services
+          </Link>
+
           <a href="contact.html" class="header-mh-nav__text">Contact</a>
           <button class="header-mh-nav__link icon" onclick="editNav()" >
             <i class="fa fa-bars"></i>
