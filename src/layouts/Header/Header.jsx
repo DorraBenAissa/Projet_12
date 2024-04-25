@@ -33,7 +33,12 @@ function Header() {
       </Link>
 
         <nav class="header-mh-nav" >
-          <a href="#about" class="header-mh-nav__text">Qui suis-je ?</a>
+
+          {/* <a href="#about" class="header-mh-nav__text"> */}
+          <Link to="/" class="header-mh-nav__text">
+            Qui suis-je ?
+          </Link>
+
           <a href="#projects" class="header-mh-nav__text">Portfolio</a>
 
           <Link to="/Services" class="header-mh-nav__text">

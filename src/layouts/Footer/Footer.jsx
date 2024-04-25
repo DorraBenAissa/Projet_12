@@ -50,7 +50,7 @@ function Footer() {
                     </div>
 
                     <nav class="footer-mh-panels-nav">
-                        <a href="index.html#home" class="footer-mh-panels-nav__link">Accueil</a>
+                        <a href="/#home" class="footer-mh-panels-nav__link">Accueil</a>
                         <a href="index.html#about" class="footer-mh-panels-nav__link">Qui suis-je ?</a>
                         <a href="index.html#projects" class="footer-mh-panels-nav__link">Portfolio</a>
                         <a href="mes-services.html" class="footer-mh-panels-nav__link">Mes services</a>

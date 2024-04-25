@@ -4,7 +4,7 @@ import './home.css'
 // ASSETS
 // import Banner from '../../components/Banner/Banner'
 // import BannerImageHome from '../../assets/banner-home.png';
-import MathildeHetru2 from '../../assets/MathildeHetru2.png'
+import MathildeHetru2 from '../../assets/undraw_software_engineer_lvl5.svg'
 import bulleBleueMathildeHetru from '../../assets/bulle-bleue-mathilde-hetru.png'
 import cvPDF from '../../assets/CV_Mathilde Hetru.pdf'
 
