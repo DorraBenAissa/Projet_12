@@ -1,15 +1,12 @@
 // IMPORTS
-import './home.css'
+// import './home.css'
 
 // ASSETS
 // import Banner from '../../components/Banner/Banner'
 // import BannerImageHome from '../../assets/banner-home.png';
-import MathildeHetru2 from '../../assets/undraw_software_engineer_lvl6.svg'
-import bulleBleueMathildeHetru from '../../assets/bulle-bleue-mathilde-hetru.png'
+// import MathildeHetru2 from '../../assets/undraw_software_engineer_lvl6.svg'
+// import bulleBleueMathildeHetru from '../../assets/bulle-bleue-mathilde-hetru.png'
 import cvPDF from '../../assets/CV_Dorra Ben Aissa.pdf'
-import sixSensLogo from '../../assets/mathilde-hetru-_boulanger.png'
-import pharmalysLogo from '../../assets/photo.svg'
-import reactLogo from '../../assets/reactLogo.png'
 
 
 import gitLogo from '../../assets/competence-mathilde-hetru_github.png'
@@ -24,16 +21,17 @@ import illustratorLogo from '../../assets/competence-mathilde-hetru_illustrator.
 import indesignLogo from '../../assets/competence-mathilde-hetru_indesign.png'
 import aftereffectsLogo from '../../assets/competence-mathilde-hetru_aftereffects.png' 
 import figmaLogo from '../../assets/competence-dorra_figma.png'
+import reactLogo from '../../assets/reactLogo.png'
 
-import creativeImg from '../../assets/competence-mathilde-hetru_creative.png'
-import rigoureuseImg from '../../assets/competence-mathilde-hetru_rigoureuse.png'
-import autonomeImg from '../../assets/competence-mathilde-hetru_autonome.png'
-import impliqueeImg from '../../assets/competence-mathilde-hetru_impliquee.png'
+// import creativeImg from '../../assets/competence-mathilde-hetru_creative.png'
+// import rigoureuseImg from '../../assets/competence-mathilde-hetru_rigoureuse.png'
+// import autonomeImg from '../../assets/competence-mathilde-hetru_autonome.png'
+// import impliqueeImg from '../../assets/competence-mathilde-hetru_impliquee.png'
 
-import bookiImg from '../../assets/mathilde-hetru-booki-OC.jpg'
-import myfoodImg from '../../assets/mathilde-hetru-projet-oh-my-food.jpg'
+// import bookiImg from '../../assets/mathilde-hetru-booki-OC.jpg'
+// import myfoodImg from '../../assets/mathilde-hetru-projet-oh-my-food.jpg'
 
-import xpiImg from '../../assets/mathilde-hetru-_boulanger.png'
+// import xpiImg from '../../assets/mathilde-hetru-_boulanger.png'
 
 // COMPONENTS
 // import Cardlocation from '../../components/CardLocation/Cardlocation'
@@ -44,25 +42,6 @@ import xpiImg from '../../assets/mathilde-hetru-_boulanger.png'
 function Home() {
    return (
     <>
-        <div className="banniere-mh">
-            <img src={MathildeHetru2} alt="Toon-me-Mathilde-Hetru" className="banniere-mh__toonme"/>
-            
-            <div className="banniere-mh-group">
-                <h1 className="banniere-mh-group__title">Dorra Ben Aissa</h1>
-                <h2 className="banniere-mh-group__soustitle">Développeuse web _ React / Graphiste </h2>
-                <p className="banniere-mh-group__text">Basée à Paris et à mon compte depuis 2023, j'ai entrepris une formation dans le développement web React avec OpenclassNamerooms en Août 2023 pour ajouter une corde à mon arc.
-                <br/>
-N'hésitez donc pas à parcourir mon portfolio et à m'envoyer un mail ! 
-                </p> 
-            
-                <a href="#about" className="mh-yellowbtn">
-                    <span className="mh-yellowbtn__text">Qui suis-je ?</span>
-                </a>
-            </div>
-            
-            <img src={bulleBleueMathildeHetru} alt="bulle-bleue-Mathilde-Hetru" className="banniere-mh__bulle-bleue"/>
-        </div>
-        
         <section className="about-mh" id="about">
         <div className="about-mh-group1">
             <h1 className="about-mh-group1__title">Qui suis-je ?</h1> 
@@ -105,76 +84,8 @@ N'hésitez donc pas à parcourir mon portfolio et à m'envoyer un mail !
             </div>
         </div>
         </section>
-        
-        <section className="lineblue-mh">
-        <div className="lineblue-mh-bulle">
-            <img src={creativeImg} alt="icone1-Mathilde-Hetru" className="lineblue-mh-bulle__img"/>
-            <h3 className="lineblue-mh-bulle__text">Créative</h3>
-        </div>
-        <div className="lineblue-mh-bulle">
-            <img src={rigoureuseImg} alt="icone2-Mathilde-Hetru" className="lineblue-mh-bulle__img"/>
-            <h3 className="lineblue-mh-bulle__text">Rigoureuse</h3>
-        </div>
-        <div className="lineblue-mh-bulle">
-            <img src={autonomeImg} alt="icone3-Mathilde-Hetru" className="lineblue-mh-bulle__img"/>
-            <h3 className="lineblue-mh-bulle__text">Autonome</h3>
-        </div>
-        <div className="lineblue-mh-bulle">
-            <img src={impliqueeImg} alt="icone4-Mathilde-Hetru" className="lineblue-mh-bulle__img"/>
-            <h3 className="lineblue-mh-bulle__text">Impliquée</h3>
-        </div>
-        </section>
-        
-        <section className="projects-mh" id="projects">
-        <h1 className="projects-mh__title">Portfolio</h1>
-        <nav className="projects-mh-nav">
-            <a href="#projects" className="projects-mh-nav__text" id="all-projects">Tous les projets</a><span className="projects-mh-nav__slash"> / </span>
-            <a href="#projects" className="projects-mh-nav__text" id="dev-web">Développement web</a><span className="projects-mh-nav__slash"> / </span>
-            <a href="#projects" className="projects-mh-nav__text" id="illustration">Illustration</a><span className="projects-mh-nav__slash"> / </span>
-            <a href="#projects" className="projects-mh-nav__text" id="troisD">Réseaux sociaux</a><span className="projects-mh-nav__slash"> / </span>
-            <a href="#projects" className="projects-mh-nav__text" id="graphic-design">Packaging</a><span className="projects-mh-nav__slash"> / </span>
-            <a href="#projects" className="projects-mh-nav__text" id="illustration">Edition_Print</a><span className="projects-mh-nav__slash"> / </span>
-            <a href="#projects" className="projects-mh-nav__text" id="troisD">Branding</a><span className="projects-mh-nav__slash"> / </span>
-            <a href="#projects" className="projects-mh-nav__text" id="photo">Evénementiel</a>
-        </nav>
-        <section className="projects-mh-section">
-            <a href="booki.html" className="projects-mh-section__link_dev-web">
-                <div className="projects-mh-section-card">
-                    <span className="projects-mh-section-card__text">Booki</span>
-                </div>
-                <div className="projects-mh-section__blue"></div>
-                <img src={bookiImg} alt="Mathilde-Hetru-projet" className="projects-mh-section__img"/>
-            </a>
-            <a href="oh-my-food.html" className="projects-mh-section__link_dev-web">
-                <div className="projects-mh-section-card">
-                    <span className="projects-mh-section-card__text">Oh my Food</span>
-                </div>
-                <div className="projects-mh-section__blue"></div>
-                <img src={myfoodImg} alt="Mathilde-Hetru-projet" className="projects-mh-section__img"/>
-            </a>
-        </section>     
-        </section>
-        
-        <section className="xp-services">
-        <h1 className="xp-services__title">Mes réferences</h1>
-        <p className="xp-services__text">J'ai eu le plaisir de travailler avec</p>
-        <div className="xp-services-list">
-            <a href="https://www.linkedin.com/in/sixiemesens-agency-5033aa68/" target="_blank" className="xp-services-list__link">
-                <img src={sixSensLogo} alt="xp1-Mathilde-Hetru" className="xp-services-list__img"/>
-            </a>
-            <a href="https://www.linkedin.com/company/pharmalyslabs/" target="_blank" className="xp-services-list__link">
-                <img src={pharmalysLogo} className="xp-services-list__img"/>
-            </a>
-        
-        </div>
-    </section>
     </>
    )
  }
  
  export default Home
-
-
-
-
-

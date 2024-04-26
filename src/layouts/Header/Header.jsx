@@ -10,44 +10,44 @@ import Logo from '../../assets/logo-mathilde-hetru.png'
 
 // Layout Header 
 function Header() {
+
+  function editNav() {
+    var x = document.getElementById("home");
+    if (x.className === "header-mh") {
+    x.className += " responsive";
+    } else {
+    x.className = "header-mh";
+    }
+  }
+
   return (
-    //   <nav className='ContHeader'>
-    //      <Link to="/">
-    //         <img className='HomeLogo' alt='Logo de kasa' src={Logo} />
-    //      </Link>
-
-    //      <div>
-    //         <NavLink to="/" className='StyledLink'>
-    //            Accueil
-    //         </NavLink>
-
-    //         <NavLink to="/about" className='StyledLink'>
-    //            À Propos
-    //         </NavLink>
-    //      </div>
-    //   </nav>
     <>
-      <header class="header-mh" id="home">
+      <header className="header-mh" id="home">
       <Link to="/">
-        <img src={Logo} class="header-mh__logo" alt="logo-mathilde-hetru" />
+        <img src={Logo} className="header-mh__logo" alt="logo-mathilde-hetru" />
       </Link>
 
-        <nav class="header-mh-nav" >
+        <nav className="header-mh-nav" >
 
-          {/* <a href="#about" class="header-mh-nav__text"> */}
-          <Link to="/" class="header-mh-nav__text">
+          {/* <a href="#about" className="header-mh-nav__text"> */}
+          <Link to="/about" className="header-mh-nav__text">
             Qui suis-je ?
           </Link>
 
-          <a href="#projects" class="header-mh-nav__text">Portfolio</a>
+          <a href="/portfolio" className="header-mh-nav__text">Portfolio</a>
 
-          <Link to="/Services" class="header-mh-nav__text">
+          <Link to="/Services" className="header-mh-nav__text">
             Mes services
           </Link>
 
-          <a href="contact.html" class="header-mh-nav__text">Contact</a>
-          <button class="header-mh-nav__link icon" onclick="editNav()" >
-            <i class="fa fa-bars"></i>
+          {/* <a href="contact.html" className="header-mh-nav__text"> */}
+          <Link to="/contact" className="header-mh-nav__text">
+            Contact
+          </Link>
+            {/* </a> */}
+
+          <button className="header-mh-nav__link icon" onClick={editNav} >
+            <i className="fa fa-bars"></i>
           </button>
         </nav>
       </header>
