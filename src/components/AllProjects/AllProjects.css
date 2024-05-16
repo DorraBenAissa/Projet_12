@@ -1,0 +1,113 @@
+.ContLocation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ 
+    background-color: #F6F6F6;
+    border-radius: 30px;
+    padding: 35px 0;
+    margin: 50px 0;
+ 
+    @media (max-width: 1024px) {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+       background-color: transparent;
+       border-radius: 30px;
+       padding: 0 0;
+       margin: 0 0;
+    }
+ }
+ 
+ .ContLocation a {
+    width : 33%;
+    @media (max-width: 1024px) {
+       width: 100%;
+    }
+ } 
+ 
+ .ContCard {
+    cursor: pointer;
+     width: 90%;
+     height: 260px;
+     margin: 5%;
+     transition: 0.2s;
+     margin-top: 8%;
+    @media (max-width: 1024px) {
+       /* width: 85vw; */
+       height: 250px;
+       /* margin-left: -1%; */
+       width: 100%;
+       margin-left: 0%;
+       margin-top: 0%;
+ }
+    }
+ 
+ .ContCard:hover {
+       scale: 1.05;
+ }
+ 
+ .ImgLocation {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+ 
+    @media (max-width: 1024px) {
+       /* width: 85vw; */
+       width : 100%;
+       height: 250px;
+    }
+ }
+ 
+ .GradientLocation {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    
+    position: relative;
+    bottom: 265px;
+    @media (max-width: 1024px) {
+       bottom: 255px;
+       width: 100%;
+    }
+ }
+ 
+ .TitleLocation {
+    color: white;
+    font-size: 1rem;
+    position: relative;
+    width: 240px;
+ 
+    bottom: 314px;
+    left: 20px;
+    margin: 0;
+    @media (max-width: 1024px) {
+       bottom: 305px;
+    }
+ }
+
+ .projects-mh__title {
+    display: inline-block;
+    font-weight: normal;
+    font-family: "Verveine";
+    font-size: 4rem;
+    color: #282846;
+    letter-spacing: -2px;
+    margin: 10px 0;
+    margin-bottom: -15px;
+    margin-top: 30px;
+    margin-left: 45px;
+    position: relative;
+  }
+  .projects-mh__title::after {
+    display: block;
+    content: "";
+    position: absolute;
+    background-color: #282846;
+    height: 3px;
+    bottom: 10px;
+    right: -58px;
+    width: 50px;
+  }

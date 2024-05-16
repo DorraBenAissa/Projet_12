@@ -34,7 +34,9 @@ function Header() {
             Qui suis-je ?
           </Link>
 
-          <a href="/portfolio" className="header-mh-nav__text">Portfolio</a>
+          <Link to="/portfolio" className="header-mh-nav__text">
+            Portfolio
+          </Link>
 
           <Link to="/Services" className="header-mh-nav__text">
             Mes services

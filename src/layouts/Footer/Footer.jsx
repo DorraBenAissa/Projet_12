@@ -26,7 +26,7 @@ function Footer() {
                         <img src={LogoFooter} className="footer-mh-panels-pres__logo" alt="logo-mathilde-hetru" />
                     </a>
                         <p className="footer-mh-panels-pres__text">Développeuse web <br/> React <br/> Graphiste</p>
-                        <a href="mailto:hello@mathildehetru.com" className="footer-mh-panels-pres__linkmail">
+                        <a href="mailto:dorra.benaissaghariani@gmail.com" className="footer-mh-panels-pres__linkmail">
                             <p className="footer-mh-panels-pres__mail">dorra.benaissaghariani@gmail.com</p>
                         </a>
                     </div>
@@ -49,12 +49,22 @@ function Footer() {
                         </a> */}
                     </div>
 
+                    
+
                     <nav className="footer-mh-panels-nav">
                         <a href="/" className="footer-mh-panels-nav__link">Accueil</a>
-                        <a href="/about" className="footer-mh-panels-nav__link">Qui suis-je ?</a>
-                        <a href="/portfolio" className="footer-mh-panels-nav__link">Portfolio</a>
-                        <a href="/services" className="footer-mh-panels-nav__link">Mes services</a>
-                        <a href="/contact" className="footer-mh-panels-nav__link">Contact</a>
+                        <Link to="/about" className="footer-mh-panels-nav__link">
+                            Qui suis-je ?
+                        </Link>
+                        <Link to="/portfolio" className="footer-mh-panels-nav__link">
+                            Portfolio
+                        </Link>
+                        <Link to="/services" className="footer-mh-panels-nav__link">
+                            Mes services
+                        </Link>
+                        <Link to="/contact" className="footer-mh-panels-nav__link">
+                            Contact
+                        </Link> 
                     </nav>
                 </div>
                 <p className="footer-mh-sentence">©2024 Dorra Ben Aissa | Les images de ce site ne sont pas libres de droits | Site développé from scratch par moi-même avec passion, cernes et caféine | <a href="conditions-generales-de-vente.html" className="footer-mh-sentence-lien">Conditions générales de vente</a> | <a href="mentions-legales.html" className="footer-mh-sentence-lien">Mentions légales</a></p>

@@ -11,6 +11,7 @@ import Services from './pages/Services/Services';
 // import Location from './pages/Location/Location';
 import About from './pages/About/About';
 import Portfolio from './pages/Portfolio/Portfolio';
+import Project from './pages/Project/Project';
 
 // LAYOUTS
 import Header from './layouts/Header/Header';
@@ -39,8 +40,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
-
         <Route path="/booki" element={<Booki />} />
+
+        <Route path="/project/:id" element={<Project />} />
 
       </Routes>
       

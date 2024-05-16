@@ -36,7 +36,7 @@ import myfoodImg from '../../assets/mathilde-hetru-projet-oh-my-food.jpg'
 import xpiImg from '../../assets/mathilde-hetru-_boulanger.png'
 
 // COMPONENTS
-// import Cardlocation from '../../components/CardLocation/Cardlocation'
+    import AllProjects from '../../components/AllProjects/AllProjects'
 
 
 
@@ -71,7 +71,7 @@ N'hésitez donc pas à parcourir mon portfolio et à m'envoyer un mail !
             En 2012, après plusieurs mois de salariat, j'ai pris mon envol et j'ai obtenu mon deuxième job en tant que Graphiste chez 'sixieme sens agency' <br/>
             J'ai eu le privilège d'accompagner de grandes marques comme <strong><a href="https://www.novartis.com/fr-fr/"  className="about-mh-group1__link">novartis</a></strong> ou <strong><a href="https://www.abbvie.ca/fr/our-company/about-abbvie.html"  className="about-mh-group1__link">abbVie </a></strong> ou <strong><a href="https://www.boehringer-ingelheim.com/fr"  className="about-mh-group1__link"> Boehringer Ingelheim </a></strong> dans leurs projets.<br/>
             <br/>
-            En 2015, j'ai travaillé comme graphiste chez <strong><a href="https://pharmalys.ch/fr" className="about-mh-group1__link">Pharmalys Laboratories Switzerland</a></strong>. Les Laboratoires Pharmalys est une société suisse spécialisée dans la nutrition infantile à travers la fabrication, la distribution et la promotion de préparations pour nourrissons et d'aliments pour bébés haut de gamme dans plus de 50 pays à travers le monde. <br/><br/>          
+            En 2015, j'ai travaillé comme graphiste chez <strong><a href="https://pharmalys.ch/fr" className="about-mh-group1__link">Pharmalys Laboratories Switzerland</a></strong>. Le Laboratoire Pharmalys est une société suisse spécialisée dans la nutrition infantile à travers la fabrication, la distribution et la promotion de préparations pour nourrissons et d'aliments pour bébés haut de gamme dans plus de 50 pays à travers le monde. <br/><br/>          
             J'ai eu le plaisir de travailler avec des <strong><a href="i-dont-think-i-feel.html"  className="about-mh-group1__link">indépendants</a></strong>, des <strong><a href="esprit-do.html"  className="about-mh-group1__link">petits commerces</a></strong> et des <strong><a href="portraits.html"  className="about-mh-group1__link">particuliers</a></strong> et de pouvoir répondre à tous leurs besoins grâce à ma double casquette. <br/>
             <br/>
             Aujourd'hui, je suis retournée à premiers amours : l'informatique et le développement web. <br/>
@@ -124,36 +124,10 @@ N'hésitez donc pas à parcourir mon portfolio et à m'envoyer un mail !
             <h3 className="lineblue-mh-bulle__text">Impliquée</h3>
         </div>
         </section>
-        
-        <section className="projects-mh" id="projects">
-        <h1 className="projects-mh__title">Portfolio</h1>
-        <nav className="projects-mh-nav">
-            <a href="#projects" className="projects-mh-nav__text" id="all-projects">Tous les projets</a><span className="projects-mh-nav__slash"> / </span>
-            <a href="#projects" className="projects-mh-nav__text" id="dev-web">Développement web</a><span className="projects-mh-nav__slash"> / </span>
-            <a href="#projects" className="projects-mh-nav__text" id="illustration">Illustration</a><span className="projects-mh-nav__slash"> / </span>
-            <a href="#projects" className="projects-mh-nav__text" id="troisD">Réseaux sociaux</a><span className="projects-mh-nav__slash"> / </span>
-            <a href="#projects" className="projects-mh-nav__text" id="graphic-design">Packaging</a><span className="projects-mh-nav__slash"> / </span>
-            <a href="#projects" className="projects-mh-nav__text" id="illustration">Edition_Print</a><span className="projects-mh-nav__slash"> / </span>
-            <a href="#projects" className="projects-mh-nav__text" id="troisD">Branding</a><span className="projects-mh-nav__slash"> / </span>
-            <a href="#projects" className="projects-mh-nav__text" id="photo">Evénementiel</a>
-        </nav>
-        <section className="projects-mh-section">
-            <a href="booki.html" className="projects-mh-section__link_dev-web">
-                <div className="projects-mh-section-card">
-                    <span className="projects-mh-section-card__text">Booki</span>
-                </div>
-                <div className="projects-mh-section__blue"></div>
-                <img src={bookiImg} alt="Mathilde-Hetru-projet" className="projects-mh-section__img"/>
-            </a>
-            <a href="oh-my-food.html" className="projects-mh-section__link_dev-web">
-                <div className="projects-mh-section-card">
-                    <span className="projects-mh-section-card__text">Oh my Food</span>
-                </div>
-                <div className="projects-mh-section__blue"></div>
-                <img src={myfoodImg} alt="Mathilde-Hetru-projet" className="projects-mh-section__img"/>
-            </a>
-        </section>     
-        </section>
+
+        {/* Début section les projets */}
+        <AllProjects />
+        {/* Fin section les projets */}
         
         <section className="xp-services">
         <h1 className="xp-services__title">Mes réferences</h1>
