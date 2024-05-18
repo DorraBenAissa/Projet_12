@@ -8,6 +8,7 @@ import Error from '../../pages/Error/Error';
 // Composant CardLocation > Génère des cards avec les images des locations, dynamiquement depuis le fichier JSON
 function AllProjects() {
     const allProjects = useFetch(window.location.origin + '/projectDorra.json');
+    console.log(window.location.origin);
 
     if (allProjects.isLoading) {
         return <LoadingScreen />
