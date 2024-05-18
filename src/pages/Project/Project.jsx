@@ -89,7 +89,7 @@ function Logement() {
                     </div>
                     <div class="presentation-projet-back">
                         <Link Link to="/portfolio" class="presentation-projet-back__link">
-                            <img src="/assets/competence-mathilde-hetru_arrow.png" alt="icone1-Mathilde-Hetru" class="presentation-projet-back__arrow" />
+                            <img src="/Projet_12/assets/competence-mathilde-hetru_arrow.png" alt="icone1-Mathilde-Hetru" class="presentation-projet-back__arrow" />
                             <span class="presentation-projet-back__text">Retour au portfolio</span>
                         </Link>
                     </div>
@@ -107,7 +107,7 @@ function Logement() {
                     {datas.description}
                 </h3>
                 <a href={datas.lienSiteHeberger} target="_blank" class="presentation-projet__link">
-                    <img src="/assets/link-earth-mathilde-hetru.png" alt="link-Mathilde-Hetru" class="presentation-projet__earth" />
+                    <img src="/Projet_12/assets/link-earth-mathilde-hetru.png" alt="link-Mathilde-Hetru" class="presentation-projet__earth" />
                 </a>
             </section>
 
