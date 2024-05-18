@@ -13,7 +13,7 @@ import Error from '../../pages/Error/Error';
 
 // Page Logement > Contient le Composant Slider, compo Rating et le composant Collapsedescription ainsi que les infos du logement et du propriétaire
 function Logement() {
-    const DataLocation = useFetch(window.location.origin + '/projectDorra.json');
+    const DataLocation = useFetch(window.location.origin + '/Projet_12/projectDorra.json');
 
     const { id } = useParams(); // Récupère l'id du logement dans l'url
 
