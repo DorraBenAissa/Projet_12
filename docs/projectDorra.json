@@ -102,22 +102,49 @@
         ]
     },
     {
-        "id": "b9123951",
-        "title": "Argent Bank",
-        "cover": "assets/aissa-dorra-printit-feed4.jpg",
-        "description": "Cinquième projet de la formation 'Développeur web' d'OpenClassrooms. L'objectif est de travailler sur le développement front-end d’une application bancaire en utilisant React et Redux pour créer une expérience utilisateur dynamique et réactive.",
-        "lienSiteHeberger": "https://github.com/DorraBenAissa/Projet-11/tree/develop_P11",
+        "id": "b912395003",
+        "title": "724 events agency",
+        "cover": "assets/aissa-dorra-printit-feed3.jpg",
+        "description": "Cinquième projet de la formation 'Développeur web' d'OpenClassrooms. L'objectif est de débugger et finaliser le développement d'un site one-page.",
+        "lienSiteHeberger": "https://github.com/DorraBenAissa/Projet-10/tree/develop_P10",
         "envTech": [
         "Html5",
         "CSS3",
         "Sass",
         "JavaScript",
         "React",
-        "Redux",
-        "Swagger",
-        "Postman",
-        "MangoDB",
-        "Green Code",
+        "GitHub",
+        "Visual Studio Code"
+        ]
+    },
+    {
+        "id": "b912395002",
+        "title": "QWENTA",
+        "cover": "assets/aissa-dorra-printit-feed3.jpg",
+        "description": "Cinquième projet de la formation 'Développeur web' d'OpenClassrooms. L'objectif est de faire un tableau trello & faire un support de présentation.",
+        "lienSiteHeberger": "https://github.com/DorraBenAissa/Projet-10/tree/develop_P10",
+        "envTech": [
+        "Html5",
+        "CSS3",
+        "Sass",
+        "JavaScript",
+        "React",
+        "GitHub",
+        "Visual Studio Code"
+        ]
+    },
+    {
+        "id": "b91239500",
+        "title": "Nina Carducci",
+        "cover": "assets/aissa-dorra-printit-feed4.jpg",
+        "description": "Septième projet de la formation 'Développeur web' d'OpenClassrooms. L'objectif est de travailler sur le réferencement, performance, accessibilité...",
+        "lienSiteHeberger": "https://dorrabenaissa.github.io/projet9_presentationTest/",
+        "envTech": [
+        "Html5",
+        "CSS3",
+        "Sass",
+        "JavaScript",
+        "SEO",
         "GitHub",
         "Visual Studio Code"
         ]
@@ -159,8 +186,8 @@
         "id": "b9123954",
         "title": "Conception Packaging 'PrimaSure'",
         "cover": "assets/aissadorra8.jpg",
-        "description": "Projet d'une salle de sport qui se trouve en Tunisie. L'objectif est de faire une conception graphique d'un logotype.",
-        "lienSiteHeberger": "https://github.com/DorraBenAissa",
+        "description": "Projet d'un lancement d'un nouveau produit chez pharmalys laboratories. Voici les différents supports graphique du Teasing, launch & post-launch.",
+        "lienSiteHeberger": "https://issuu.com/primasure/docs/presentation_mock_up_primasure_26",
         "envTech": [
         "Adobe illustrator",
         "Adobe photoshop",
@@ -175,8 +202,8 @@
         "id": "b9123955",
         "title": "Lancement'Primalac ULTIMA'",
         "cover": "assets/aissadorra9.jpg",
-        "description": "Projet d'une salle de sport qui se trouve en Tunisie. L'objectif est de faire une conception graphique d'un logotype.",
-        "lienSiteHeberger": "https://github.com/DorraBenAissa",
+        "description": "Projet d'un lancement d'un nouveau produit chez pharmalys laboratories. Voici les différents supports graphique du Teasing, launch & post-launch.",
+        "lienSiteHeberger": "https://docs.google.com/presentation/d/11ouCLsmniXq1ChVanoWT1nHzZK6rDyFg/edit?usp=sharing&ouid=111413243967624030455&rtpof=true&sd=true",
         "envTech": [
         "Adobe illustrator",
         "Adobe photoshop",
