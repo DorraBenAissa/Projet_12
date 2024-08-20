@@ -105,8 +105,8 @@
         "id": "b912395002",
         "title": "QWENTA",
         "cover": "assets/aissa-dorra-printit-feed3.jpg",
-        "description": "10ieme projet de la formation 'Développeur web' d'OpenClassrooms. L'objectif est de faire un tableau trello & faire un support de présentation.",
-        "lienSiteHeberger": "https://github.com/DorraBenAissa/Projet-10/tree/develop_P10",
+        "description": "11ieme projet de la formation 'Développeur web' d'OpenClassrooms. L'objectif est de faire un tableau trello & faire un support de présentation.",
+        "lienSiteHeberger": "",
         "envTech": [
         "Html5",
         "CSS3",
@@ -123,6 +123,22 @@
         "cover": "assets/aissa-dorra-printit-feed4.jpg",
         "description": "Septième projet de la formation 'Développeur web' d'OpenClassrooms. L'objectif est de travailler sur le réferencement, performance, accessibilité...",
         "lienSiteHeberger": "https://dorrabenaissa.github.io/projet9_presentationTest/",
+        "envTech": [
+        "Html5",
+        "CSS3",
+        "Sass",
+        "JavaScript",
+        "SEO",
+        "GitHub",
+        "Visual Studio Code"
+        ]
+    },
+    {
+        "id": "b91239500",
+        "title": "Argent bank",
+        "cover": "assets/aissa-dorra-printit-feed4.jpg",
+        "description": "Ce projet de la formation 'Développeur web' d'OpenClassrooms. L'objectif est de travailler sur le réferencement, performance, accessibilité...",
+        "lienSiteHeberger": "https://dorrabenaissa.github.io/Projet-10/",
         "envTech": [
         "Html5",
         "CSS3",
