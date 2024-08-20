@@ -102,26 +102,10 @@
         ]
     },
     {
-        "id": "b912395003",
-        "title": "724 events agency",
-        "cover": "assets/aissa-dorra-printit-feed3.jpg",
-        "description": "Cinquième projet de la formation 'Développeur web' d'OpenClassrooms. L'objectif est de débugger et finaliser le développement d'un site one-page.",
-        "lienSiteHeberger": "https://github.com/DorraBenAissa/Projet-10/tree/develop_P10",
-        "envTech": [
-        "Html5",
-        "CSS3",
-        "Sass",
-        "JavaScript",
-        "React",
-        "GitHub",
-        "Visual Studio Code"
-        ]
-    },
-    {
         "id": "b912395002",
         "title": "QWENTA",
         "cover": "assets/aissa-dorra-printit-feed3.jpg",
-        "description": "Cinquième projet de la formation 'Développeur web' d'OpenClassrooms. L'objectif est de faire un tableau trello & faire un support de présentation.",
+        "description": "10ieme projet de la formation 'Développeur web' d'OpenClassrooms. L'objectif est de faire un tableau trello & faire un support de présentation.",
         "lienSiteHeberger": "https://github.com/DorraBenAissa/Projet-10/tree/develop_P10",
         "envTech": [
         "Html5",
