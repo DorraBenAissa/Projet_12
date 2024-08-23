@@ -54,7 +54,7 @@ function Home() {
             J'ai eu le plaisir de travailler avec des <strong><a href="i-dont-think-i-feel.html"  className="about-mh-group1__link">indépendants</a></strong>, des <strong><a href="esprit-do.html"  className="about-mh-group1__link">petits commerces</a></strong> et des <strong><a href="portraits.html"  className="about-mh-group1__link">particuliers</a></strong> et de pouvoir répondre à tous leurs besoins grâce à ma double casquette. <br/>
             <br/>
             Aujourd'hui, je suis retournée à premiers amours : l'informatique et le développement web. <br/>
-            J'ai entrepris une formation diplomante avec <strong><a href="https://openclassNamerooms.com/fr/paths/556-developpeur-web" className="about-mh-group1__link">OpenclassNamerooms</a></strong> en Aoùt 2023 pour devenir développeuse web. <br/>
+            J'ai entrepris une formation diplomante avec <strong><a href="https://openclassrooms.com/fr/paths/556-developpeur-web" className="about-mh-group1__link">Openclassrooms</a></strong> en Aoùt 2023 pour devenir développeuse web. <br/>
             <br/>
             Retrouvez mes projets ci-dessous et n'hésitez pas à me contacter !
             </p>

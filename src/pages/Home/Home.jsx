@@ -50,7 +50,7 @@ function Home() {
             <div className="banniere-mh-group">
                 <h1 className="banniere-mh-group__title">Dorra Ben Aissa</h1>
                 <h2 className="banniere-mh-group__soustitle">Développeuse web _ React / Graphiste </h2>
-                <p className="banniere-mh-group__text">Basée à Paris et à mon compte depuis 2023, j'ai entrepris une formation dans le développement web React avec OpenclassNamerooms en Août 2023 pour ajouter une corde à mon arc.
+                <p className="banniere-mh-group__text">Basée à Paris et à mon compte depuis 2023, j'ai entrepris une formation dans le développement web React avec Openclassrooms en Août 2023 pour ajouter une corde à mon arc.
                 <br/>
 N'hésitez donc pas à parcourir mon portfolio et à m'envoyer un mail ! 
                 </p> 
@@ -75,7 +75,7 @@ N'hésitez donc pas à parcourir mon portfolio et à m'envoyer un mail !
             J'ai eu le plaisir de travailler avec des <strong><a href="i-dont-think-i-feel.html"  className="about-mh-group1__link">indépendants</a></strong>, des <strong><a href="esprit-do.html"  className="about-mh-group1__link">petits commerces</a></strong> et des <strong><a href="portraits.html"  className="about-mh-group1__link">particuliers</a></strong> et de pouvoir répondre à tous leurs besoins grâce à ma double casquette. <br/>
             <br/>
             Aujourd'hui, je suis retournée à premiers amours : l'informatique et le développement web. <br/>
-            J'ai entrepris une formation diplomante avec <strong><a href="https://openclassNamerooms.com/fr/paths/556-developpeur-web" className="about-mh-group1__link">Openclassrooms</a></strong> en Aoùt 2023 pour devenir développeuse web. <br/>
+            J'ai entrepris une formation diplomante avec <strong><a href="https://openclassrooms.com/fr/paths/556-developpeur-web" className="about-mh-group1__link">Openclassrooms</a></strong> en Aoùt 2023 pour devenir développeuse web. <br/>
             <br/>
             Retrouvez mes projets ci-dessous et n'hésitez pas à me contacter !
             </p>
