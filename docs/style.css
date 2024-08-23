@@ -24,6 +24,12 @@
     font-family: "Raleway-bold";
     /* src: url("font/Raleway-Bold.ttf");
     src: url("font/Raleway-Bold.ttf") format("truetype"); */
+    src: url("https://db.onlinewebfonts.com/t/a53ac15af1acb447e66ad66f0a1e98e9.eot");
+    src: url("https://db.onlinewebfonts.com/t/a53ac15af1acb447e66ad66f0a1e98e9.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/a53ac15af1acb447e66ad66f0a1e98e9.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/a53ac15af1acb447e66ad66f0a1e98e9.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/a53ac15af1acb447e66ad66f0a1e98e9.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/a53ac15af1acb447e66ad66f0a1e98e9.svg#Raleway-Bold")format("svg");
     font-weight: normal;
     font-style: normal;
   }
