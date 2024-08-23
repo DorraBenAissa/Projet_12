@@ -2,7 +2,7 @@
     font-family: "Verveine";
     /* src: url("font/VerveineRegular.ttf");
     src: url("font/VerveineRegular.ttf") format("truetype"); */
-    /* src: url("font/VerveineRegular.woff") format("woff"); */
+    src: url("font/VerveineRegular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
   }
