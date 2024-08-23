@@ -36,7 +36,7 @@
     width: 50px;
   }
   .banniere-mh-group__soustitle {
-    font-family: "Raleway-bold";
+    font-family: "Raleway-Bold";
     font-size: 1.5rem;
     color: #282846;
     position: relative;
@@ -112,7 +112,7 @@
   }
   .mh-yellowbtn__text {
     display: block;
-    font-family: "Raleway-bold";
+    font-family: "Raleway-Bold";
     text-align: center;
     padding: 12px;
     color: #282846;
@@ -223,7 +223,7 @@
     transition: transform 400ms;
   }
   .about-mh-group2-bulle__text {
-    font-family: "Raleway-bold";
+    font-family: "Raleway-Bold";
   }
   .about-mh-group2-bulle__img {
     height: 30px;

@@ -21,7 +21,7 @@
     font-style: normal;
   }
   @font-face {
-    font-family: "Raleway-bold";
+    font-family: "Raleway-Bold";
     /* src: url("font/Raleway-Bold.ttf");
     src: url("font/Raleway-Bold.ttf") format("truetype"); */
     src: url("https://db.onlinewebfonts.com/t/a53ac15af1acb447e66ad66f0a1e98e9.eot");
@@ -45,7 +45,7 @@
   }
   .mh-yellowbtn__text {
     display: block;
-    font-family: "Raleway-bold";
+    font-family: "Raleway-Bold";
     text-align: center;
     padding: 12px;
     color: #282846;
@@ -90,7 +90,7 @@
   }
   .mh-whitebtn__text {
     display: block;
-    font-family: "Raleway-bold";
+    font-family: "Raleway-Bold";
     text-align: center;
     padding: 12px;
     color: #282846;
@@ -215,7 +215,7 @@
     transition: transform 400ms;
   }
   .about-mh-group2-bulle__text {
-    font-family: "Raleway-bold";
+    font-family: "Raleway-Bold";
   }
   .about-mh-group2-bulle__img {
     height: 30px;
@@ -532,7 +532,7 @@
     width: 50px;
   }
   .banniere-mh-group__soustitle {
-    font-family: "Raleway-bold";
+    font-family: "Raleway-Bold";
     font-size: 1.5rem;
     color: #282846;
     position: relative;
@@ -815,7 +815,7 @@
   }
   .presentation-projet-yellowbtn__text {
     display: block;
-    font-family: "Raleway-bold";
+    font-family: "Raleway-Bold";
     text-align: center;
     padding: 12px;
     color: #282846;
@@ -832,7 +832,7 @@
   }
   .presentation-projet-bluebtn__text {
     display: block;
-    font-family: "Raleway-bold";
+    font-family: "Raleway-Bold";
     text-align: center;
     padding: 12px;
     color: #282846;
@@ -986,7 +986,7 @@
   }
   .commande-portrait-btn__text {
     font-weight: normal;
-    font-family: "Raleway-bold";
+    font-family: "Raleway-Bold";
     font-size: 1.2rem;
     display: block;
     text-align: center;
@@ -1147,7 +1147,7 @@
   }
   .footer-mh-panels-pres__text {
     margin: 20px 0 0 0;
-    font-family: "Raleway-bold";
+    font-family: "Raleway-Bold";
     padding-left: 35px;
   }
   .footer-mh-panels-pres__mail {
@@ -1405,7 +1405,7 @@
     height: 115px;
   }
   .services-page-list-bulle__title {
-    font-family: "Raleway-bold";
+    font-family: "Raleway-Bold";
     font-size: 1.5rem;
     color: #282846;
     font-size: 1rem;
@@ -1502,7 +1502,7 @@
     height: 80px;
   }
   .services-step-list-bulle__title {
-    font-family: "Raleway-bold";
+    font-family: "Raleway-Bold";
     font-size: 1.5rem;
     color: white;
     font-size: 1rem;
