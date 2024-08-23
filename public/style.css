@@ -2,21 +2,21 @@
     font-family: "Verveine";
     src: url("font/VerveineRegular.ttf");
     src: url("font/VerveineRegular.ttf") format("truetype");
-    src: url("font/VerveineRegular.woff") format("woff");
+    /* src: url("font/VerveineRegular.woff") format("woff"); */
     font-weight: normal;
     font-style: normal;
   }
   @font-face {
     font-family: "Raleway";
-    src: url("font/Raleway-Regular.ttf");
-    src: url("font/Raleway-Regular.ttf") format("truetype");
+    /* src: url("font/Raleway-Regular.ttf");
+    src: url("font/Raleway-Regular.ttf") format("truetype"); */
     font-weight: normal;
     font-style: normal;
   }
   @font-face {
     font-family: "Raleway-bold";
-    src: url("font/Raleway-Bold.ttf");
-    src: url("font/Raleway-Bold.ttf") format("truetype");
+    /* src: url("font/Raleway-Bold.ttf");
+    src: url("font/Raleway-Bold.ttf") format("truetype"); */
     font-weight: normal;
     font-style: normal;
   }
